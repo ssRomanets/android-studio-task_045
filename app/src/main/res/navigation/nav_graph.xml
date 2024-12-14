@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/manFragment">
+
+    <fragment
+        android:id="@+id/manFragment"
+        android:name="com.example.task_045.man.ManFragment"
+        android:label="fragment_man"
+        tools:layout="@layout/fragment_man" />
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.example.task_045.notes.NotesFragment"
+        android:label="fragment_notes"
+        tools:layout="@layout/fragment_notes" />
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.example.task_045.weather.WeatherFragment"
+        android:label="fragment_weather"
+        tools:layout="@layout/fragment_weather" />
+</navigation>

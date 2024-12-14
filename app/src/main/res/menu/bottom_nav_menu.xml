@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/manFragment"
+        android:icon="@drawable/man_ic"
+        android:title="Man"/>
+
+    <item
+        android:id="@+id/notesFragment"
+        android:icon="@drawable/notes_ic"
+        android:title="Notes"/>
+
+    <item
+        android:id="@+id/weatherFragment"
+        android:icon="@drawable/weather_ic"
+        android:title="Weather"/>
+</menu>
